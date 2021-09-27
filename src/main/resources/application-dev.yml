@@ -1,0 +1,4 @@
+external:
+  providers:
+    provider1: https://provider1.dev.com/v1/api/account/valiate
+    provider2: https://provider2.dev.com/v1/api/account/valiate
