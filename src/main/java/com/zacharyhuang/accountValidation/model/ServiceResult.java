@@ -24,6 +24,6 @@ public final class ServiceResult {
   }
 
   public static ServiceResult fail(ServiceError error) {
-    return new ServiceResult(true, Optional.of(error), Optional.empty());
+    return new ServiceResult(false, Optional.of(error), Optional.empty());
   }
 }

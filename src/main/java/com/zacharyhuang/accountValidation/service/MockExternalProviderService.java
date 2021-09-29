@@ -36,7 +36,7 @@ public class MockExternalProviderService implements ExternalProviderService {
             return CompletableFuture.completedFuture(new ProviderResponse(provider, true));
         } catch (Exception e) {
             e.printStackTrace();
-            return CompletableFuture.completedFuture(new ProviderResponse(provider, true));
+            return CompletableFuture.completedFuture(new ProviderResponse(provider, false));
         }
 
     }
